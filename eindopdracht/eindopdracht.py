@@ -8,12 +8,17 @@ def een():
 
     b = input ("are you older then 12?") 
     if b == 'no' or b == 'NO':
-     print ("We are sorry, but you have to be above 12")  
+        print ("We are sorry, but you have to be above 12")  
     if b == 'yes' or b == 'YES':
-     print ("thats good to hear!")
+        print ("thats good to hear!")
 
-    c = input ("How old are you then?") 
-    print("thats good to hear, " + a ) 
+    c = input("How old are you then? ") 
+    c = int(c)
+    print (c)
+    if c ==17:
+        print("me too") 
+    else:
+        print("thats good to hear, " + a ) 
 
 een()
  
